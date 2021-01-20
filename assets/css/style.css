@@ -8,10 +8,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.nav-link .show .active {
+    background: #166ab5;
+}
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
 }
+
+
 
 a {
     color: #1977cc;
@@ -1111,6 +1116,7 @@ section {
 
 .departments .nav-tabs {
     border: 0;
+    background-color:azure; 
 }
 
 .departments .nav-link {
